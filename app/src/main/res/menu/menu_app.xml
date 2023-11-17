@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/icn_home"
+            android:title="@string/home_menu" />
+
+        <item
+            android:id="@+id/likedFragment"
+            android:icon="@drawable/icn_like_filled_black"
+            android:title="@string/liked_menu" />
+
+        <item
+            android:id="@+id/aboutFragment"
+            android:icon="@drawable/icn_about"
+            android:title="@string/about_menu" />
+
+    </group>
+</menu>

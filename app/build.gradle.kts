@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.aplikasi_sederhana"
-    compileSdk = 33
+    compileSdk = 34
 
     buildFeatures {
         viewBinding {
@@ -18,7 +18,7 @@ android {
     defaultConfig {
         applicationId = "com.example.aplikasi_sederhana"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

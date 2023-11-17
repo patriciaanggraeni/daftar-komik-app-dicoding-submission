@@ -2,4 +2,9 @@
     <string name="app_name">aplikasi-sederhana</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- navigation drawer menu-->
+    <string name="home_menu">Home</string>
+    <string name="liked_menu">Liked Comic</string>
+    <string name="about_menu">About Me</string>
 </resources>
