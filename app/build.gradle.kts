@@ -9,6 +9,12 @@ android {
     namespace = "com.example.aplikasi_sederhana"
     compileSdk = 33
 
+    buildFeatures {
+        viewBinding {
+            enable = true
+        }
+    }
+
     defaultConfig {
         applicationId = "com.example.aplikasi_sederhana"
         minSdk = 26

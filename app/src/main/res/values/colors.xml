@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="genre_color_text">#818181</color>
+    <color name="btn_like_comic_color">#EE58FF</color>
+    <color name="stroke_color">#6E6E6E</color>
 </resources>

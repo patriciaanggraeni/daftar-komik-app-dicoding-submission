@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comic_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_120sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="75dp"
+                android:layout_height="120dp"
+                android:src="@drawable/chainsaw_man"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <ImageButton
+                android:id="@+id/like"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/icn_like_black"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/title"
+                app:layout_constraintBottom_toBottomOf="@id/title"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="Comic Title"
+                android:maxLines="1"
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toTopOf="@id/image"
+                android:layout_marginStart="10dp"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginTop="15dp"
+                style="@style/MyFontStyleBold"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever" />
+
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="Comic Genre"
+                app:layout_constraintStart_toEndOf="@+id/image"
+                app:layout_constraintTop_toTopOf="@+id/image"
+                app:layout_constraintBottom_toBottomOf="@id/image"
+                android:layout_marginStart="10dp"
+                style="@style/MyFontStyleRegular"
+                android:textColor="@color/genre_color_text"/>
+
+           <LinearLayout
+               android:id="@+id/rating_container"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               app:layout_constraintStart_toEndOf="@+id/image"
+               app:layout_constraintBottom_toBottomOf="@+id/image"
+               android:layout_marginStart="10dp"
+               android:layout_marginBottom="15dp">
+
+               <ImageView
+                   android:id="@+id/rating_image"
+                   android:src="@drawable/rating"
+                   android:layout_width="@dimen/_10sdp"
+                   android:layout_height="@dimen/_10sdp" />
+
+               <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="Comic Rating"
+                    android:layout_marginStart="5dp"
+                   style="@style/MyFontStyleRegular" />
+
+           </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
