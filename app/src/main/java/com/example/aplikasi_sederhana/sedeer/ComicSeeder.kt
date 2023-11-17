@@ -19,7 +19,7 @@ object ComicSeeder {
         Comic(
             title = "Chainsaw Man",
             image = getBitmap(context, R.drawable.chainsaw_man),
-            genre = "Action, Comedy, Horror, Psychological",
+            genre = "Action, Comedy, Horror, Mature, Mistery, Psychological, Shounen, Supernatunal, Tragedy",
             description = "",
             like = false,
             rating = 8.5f
@@ -35,7 +35,7 @@ object ComicSeeder {
         Comic(
             title = "Shingeki No Kyoujin",
             image = getBitmap(context, R.drawable.shingeki_no_kyoujin),
-            genre = "Action, Drama, Fantasy, Shounen",
+            genre = "Action, Drama, Fantasy, Horror, Mature, Shounen, Supernatural, Tragedy",
             description = "",
             like = false,
             rating = 8.6f
@@ -43,13 +43,13 @@ object ComicSeeder {
         Comic(
             title = "The Beginning After the End",
             image = getBitmap(context, R.drawable.the_beginning_after_the_end),
-            genre = "Action, Adventure, Fantasy, Isekai",
+            genre = "Action, Adventure, Fantasy, Isekai, School Life, Shounen, Tragedy",
             description = "",
             like = false,
             rating = 7.7f
         ),
         Comic(
-            title = "Sakamoto Days!",
+            title = "Sakamoto Days",
             image = getBitmap(context, R.drawable.sakamoto_days),
             genre = "Action, Comedy, Shounen, Supernatural",
             description = "",
@@ -75,7 +75,7 @@ object ComicSeeder {
         Comic(
             title = "Tokyo Ghoul",
             image = getBitmap(context, R.drawable.tokyo_ghoul),
-            genre = "Action, Horror, Psychological, Seinen",
+            genre = "Action, Horror, Mature, Psychological, Seinen, Supernatural, Tragedy",
             description = "",
             like = false,
             rating = 8.4f
@@ -83,7 +83,7 @@ object ComicSeeder {
         Comic(
             title = "Akame ga KILL!",
             image = getBitmap(context, R.drawable.akame_ga_kill),
-            genre = "Action, Drama, Fantasy, Romance, Supernatural",
+            genre = "Action, Drama, Fantasy, Romance, Shounen, Supernatural, Tragedi",
             description = "",
             like = false,
             rating = 9.51f
