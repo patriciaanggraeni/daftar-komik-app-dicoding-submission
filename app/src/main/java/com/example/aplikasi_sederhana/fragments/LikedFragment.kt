@@ -19,18 +19,11 @@ class LikedFragment : Fragment() {
 
     private lateinit var binding: FragmentLikedBinding
 
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var likedComicAdapter: LikedComicAdapter
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentLikedBinding.inflate(inflater, container, false)
-
-        likedComicAdapter = LikedComicAdapter()
-        recyclerView = binding.likedComicRecyclerView
-
         return binding.root
     }
 }
