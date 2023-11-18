@@ -7,4 +7,45 @@
     <string name="home_menu">Home</string>
     <string name="liked_menu">Liked Comic</string>
     <string name="about_menu">About Me</string>
+
+    <!-- comic description -->
+    <string name="chainsaw_man_description">
+        Manga Chainsaw Man yang dibuat oleh komikus bernama FUJIMOTO Tatsuki ini bercerita tentang Pemuda kena mental + iblis anjing gergaji = Manusia Gergaji! Nama mengatakan itu semua! Kehidupan kemiskinan Denji berubah selamanya ketika ia bergabung dengan anjing gergaji hewan peliharaannya, Pochita! Sekarang dia tinggal di kota besar dan menjadi Pemburu Iblis resmi. Tapi dia harus banyak belajar tentang pekerjaan barunya dan kekuatan gergaji!.
+    </string>
+
+    <string name="solo_leveling_description">
+       Manhwa Solo Leveling yang dibuat oleh komikus bernama Chugong, H-goon KI, Soryeong ini bercerita tentang Dikenal sebagai Pemburu Terlemah dari Semua Umat Manusia, kontribusi pemburu peringkat-E Jinwoo Sung untuk penggerebekan sama dengan berusaha untuk tidak terbunuh. Sayangnya, di antara tagihan rumah sakit ibunya, biaya kuliah saudara perempuannya, dan kurangnya prospek pekerjaan, dia tidak punya pilihan selain terus mempertaruhkan nyawanya. Jadi ketika ada kesempatan untuk pembayaran yang lebih besar, dia mengambilnya…hanya untuk bertatap muka dengan makhluk yang kekuatannya melebihi apa pun yang pernah dia lihat! Dengan pemimpin partai kehilangan lengan dan satu-satunya penyembuh berantakan, dapatkah Jinwoo menemukan jalan keluar bagi mereka?.
+    </string>
+
+    <string name="shingeki_no_kyoujin_description">
+       Manga Shingeki no Kyojin yang dibuat oleh komikus bernama ISAYAMA Hajime ini bercerita tentang Di dunia yang sepenuhnya diperintah oleh raksasa, umat manusia, yang telah berubah menjadi makanan mereka, telah mengelilingi zona pemukimannya dengan tembok besar, yang keduanya mencegah kebebasan mereka di luar tembok dan melindungi mereka dari serangan. Namun, sebagai akibat dari munculnya raksasa super yang melintasi tembok, perjuangan putus asa dimulai dan para pahlawan muda, yang telah kehilangan orang tua mereka, melawan raksasa itu sebagai korps pelatihan, dengan maksud untuk mendapatkan kembali kebebasan mereka.
+    </string>
+
+    <string name="the_beiginning_after_the_end_description">
+        Manhwa The Beginning After the End yang dibuat oleh komikus bernama TurtleMe ini bercerita tentang Raja Gray memiliki kekuatan, kekayaan, dan prestise yang tak tertandingi di dunia yang diatur oleh kemampuan bela diri. Namun, kesendirian tetap ada di belakang mereka yang memiliki kekuatan besar. Di bawah eksterior glamor seorang raja yang kuat mengintai cangkang manusia, tanpa tujuan dan kemauan. Bereinkarnasi ke dunia baru yang penuh dengan sihir dan monster, raja memiliki kesempatan kedua untuk menghidupkan kembali hidupnya. Namun, memperbaiki kesalahan masa lalunya tidak akan menjadi satu-satunya tantangannya. Di bawah kedamaian dan kemakmuran dunia baru adalah arus bawah yang mengancam untuk menghancurkan semua yang telah dia kerjakan, mempertanyakan peran dan alasannya untuk dilahirkan kembali.
+    </string>
+
+    <string name="sakamoto_days_description">
+        Manga Sakamoto Days yang dibuat oleh komikus bernama SUZUKI Yuuto ini bercerita tentang Taro Sakamoto adalah pembunuh utama, ditakuti oleh penjahat dan dikagumi oleh pembunuh bayaran. Tapi suatu hari… dia jatuh cinta! Pensiun, pernikahan, menjadi ayah, dan kemudian… Berat badan Sakamoto bertambah! Pria gemuk yang menjalankan toko lingkungan itu sebenarnya adalah mantan pembunuh bayaran legendaris! Bisakah dia melindungi keluarganya dari bahaya? Bersiaplah untuk mengalami seri komedi aksi jenis baru!.
+    </string>
+
+    <string name="ha_kaijuu_description">
+        Manga 8Kaijuu yang dibuat oleh komikus bernama MATSUMOTO Naoya ini bercerita tentang Monster aneh seperti Godzilla yang disebut kaijuu telah muncul di Jepang selama bertahun-tahun. Untuk memerangi binatang buas ini, unit militer elit yang dikenal sebagai Korps Pertahanan mempertaruhkan nyawa mereka setiap hari untuk melindungi warga sipil. Setelah makhluk terbunuh, penyapu—yang bekerja di bawah Perusahaan Pembersih Kaijuu Profesional—dibiarkan untuk membuang sisa-sisanya. Kafka Hibino adalah 32 tahun anggota Profesional Kaiju Cleanup Corp Kafka juga teman masa kecil dengan Mina Ashiro yang ia bersumpah dengan untuk bergabung dengan Angkatan Pertahanan bersama-sama dan melindungi Jepang dari Kaiju. Namun, Kafka gagal dalam ujian masuk berkali-kali dan berhenti karena mimpinya menjadi anggota Angkatan Pertahanan sementara Mina kemudian menjadi kapten Divisi 3 Angkatan Pertahanan. Setelah serangkaian peristiwa malang dan interaksi dengan rekrutan ambisius bernama Leno Ichikawa, Kafka bertemu dengan kaijuu tipe parasit yang memaksa masuk melalui mulutnya — mengubahnya menjadi monster humanoid. Dengan kekuatan barunya, Kafka bertujuan untuk memberikan mimpi seumur hidupnya percobaan terakhir.
+    </string>
+
+    <string name="yuru_camp_description">
+        Manga Yuru Camp yang dibuat oleh komikus bernama Afro ini bercerita tentang Rin menikmati berkemah di tepi danau, Mt. Fuji dalam pandangan. Nadeshiko mengendarai sepedanya untuk melihat Mt. Fuji juga. Saat keduanya makan mie cangkir bersama, pemandangan apa yang akan mereka lihat? Seri ini akan membuat pembaca jatuh cinta dengan berkemah!.
+    </string>
+
+    <string name="tokyo_ghoul_description">
+       Manga Tokyo Ghoul yang dibuat oleh komikus bernama ISHIDA Sui ini bercerita tentang Pembunuhan aneh sedang terjadi di Tokyo. Karena bukti cair di tempat kejadian, polisi menyimpulkan serangan itu adalah tindakan monster pemakan manusia, hantu. Teman kuliah Kaneki dan Hide datang dengan gagasan bahwa hantu meniru manusia jadi itu sebabnya mereka belum pernah melihatnya. Sedikit yang mereka tahu bahwa teori mereka mungkin menjadi kenyataan.
+    </string>
+
+    <string name="akame_ga_kill_description">
+        Manga Akame ga KILL! yang dibuat oleh komikus bernama Takahiro (タカヒロ) ini bercerita tentang Remaja desa udik Tatsumi bermimpi mendapatkan cukup uang untuk desanya yang miskin dengan bekerja di Ibukota. Tanpa uang sepeser pun, Tatsumi diambil oleh Lady Aria yang cantik, tetapi tepat ketika impian Ibukotanya tampaknya tercapai lagi, rumah Lady Aria dikepung oleh Night Raid - tim pembunuh kejam yang menargetkan anggota kelas atas dari kelas atas! Karena Tatsumi cepat belajar, penampilan bisa menipu di Ibukota, dan tim pembunuh ini mungkin adalah orang baik?.
+    </string>
+
+    <string name="kubo_san_description">
+        Manga Kubo-san wa Boku (Mobu) wo Yurusanai yang dibuat oleh komikus bernama YUKIMORI Nene ini bercerita tentang Shiraishi Junta adalah anak laki-laki polos yang pendeknya dua rambut karena tidak terlihat oleh teman-teman sekelas dan teman-temannya; dengan kata lain karakter massa. Cue Nagisa Kubo, tetangga sebelahnya yang cantik yang selalu memperhatikannya dan bereksperimen dengannya untuk mengukur seberapa tak terlihat dia sebenarnya… dan kemudian dia menyatakan dirinya sebagai pahlawan wanita!!!.
+    </string>
 </resources>

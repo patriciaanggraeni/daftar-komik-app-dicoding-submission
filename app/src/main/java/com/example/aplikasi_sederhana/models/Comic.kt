@@ -11,5 +11,5 @@ data class Comic(
     val genre: List<String>,
     val rating: Float,
     var like: Boolean = false,
-    val description: String
+    val description: Int
 ): Parcelable

@@ -38,6 +38,7 @@ class DetailFragment : Fragment() {
         binding.image.load(comicData.currentComic.image)
         binding.imageCover.load(comicData.currentComic.image)
         binding.ratingText.text = comicData.currentComic.rating.toString()
+        binding.description.text = resources.getText(comicData.currentComic.description)
 
         genreAdapter.setAdapter(comicData.currentComic.genre)
         recyclerView.apply {
@@ -51,12 +52,6 @@ class DetailFragment : Fragment() {
         } else {
             binding.comicLiked.setImageResource(R.drawable.icn_like_black)
             binding.likeComicText.text = "Suka"
-        }
-
-        if (comicData.currentComic.description.isBlank()) {
-            binding.description.text = "Deskripsi Belum Tersedia"
-        } else {
-            binding.description.text = comicData.currentComic.description
         }
 
         recyclerView = binding.chapterRecyclerview

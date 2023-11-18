@@ -144,10 +144,22 @@
 
                 </RelativeLayout>
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_weight="1"
+                app:layout_constraintTop_toBottomOf="@id/list_genre"
+                app:layout_constraintBottom_toTopOf="@id/chapter_recyclerview"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp">
+
                 <TextView
                     android:id="@+id/description"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAlignment="textStart"
+                    android:overScrollMode="always"
                     style="@style/MyFontStyleRegular"
                     android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
@@ -155,11 +167,9 @@
                     app:layout_constraintTop_toBottomOf="@id/list_genre"
                     app:layout_constraintBottom_toTopOf="@id/chapter_recyclerview"
                     android:text="Deskripsi Komik"
-                    android:justificationMode="inter_word"
-                    android:textAlignment="center"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_10sdp"
-                    android:layout_marginHorizontal="@dimen/_20sdp"/>
+                    android:justificationMode="inter_word"/>
+
+            </ScrollView>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/chapter_recyclerview"

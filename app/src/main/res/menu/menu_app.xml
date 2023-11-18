@@ -6,10 +6,10 @@
             android:icon="@drawable/icn_home"
             android:title="@string/home_menu" />
 
-        <item
-            android:id="@+id/likedFragment"
-            android:icon="@drawable/icn_like_filled_black"
-            android:title="@string/liked_menu" />
+<!--        <item-->
+<!--            android:id="@+id/likedFragment"-->
+<!--            android:icon="@drawable/icn_like_filled_black"-->
+<!--            android:title="@string/liked_menu" />-->
 
         <item
             android:id="@+id/aboutFragment"

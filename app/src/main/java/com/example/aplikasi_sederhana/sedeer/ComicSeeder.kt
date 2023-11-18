@@ -24,7 +24,7 @@ object ComicSeeder {
                 "Mature", "Mistery", "Psychological",
                 "Shounen", "Supernatunal", "Tragedy"
             ),
-            description = "",
+            description = R.string.chainsaw_man_description,
             like = false,
             rating = 8.5f
         ),
@@ -32,7 +32,7 @@ object ComicSeeder {
             title = "Solo Leveling",
             image = getBitmap(context, R.drawable.solo_leveling),
             genre = listOf("Action", "Adventure", "Fantasy", "Shounen"),
-            description = "",
+            description = R.string.solo_leveling_description,
             like = false,
             rating = 8.8f
         ),
@@ -40,7 +40,7 @@ object ComicSeeder {
             title = "Shingeki No Kyoujin",
             image = getBitmap(context, R.drawable.shingeki_no_kyoujin),
             genre = listOf("Action", "Drama", "Fantasy", "Horror", "Mature", "Shounen", "Supernatural", "Tragedy"),
-            description = "",
+            description = R.string.shingeki_no_kyoujin_description,
             like = false,
             rating = 8.6f
         ),
@@ -48,7 +48,7 @@ object ComicSeeder {
             title = "The Beginning After the End",
             image = getBitmap(context, R.drawable.the_beginning_after_the_end),
             genre = listOf("Action", "Adventure", "Fantasy", "Isekai", "School Life", "Shounen", "Tragedy"),
-            description = "",
+            description = R.string.the_beiginning_after_the_end_description,
             like = false,
             rating = 7.7f
         ),
@@ -56,15 +56,15 @@ object ComicSeeder {
             title = "Sakamoto Days",
             image = getBitmap(context, R.drawable.sakamoto_days),
             genre = listOf("Action", "Comedy", "Shounen", "Supernatural"),
-            description = "",
+            description = R.string.sakamoto_days_description,
             like = false,
             rating = 7.6f
         ),
         Comic(
             title = "8Kaijuu",
             image = getBitmap(context, R.drawable.ha_kaijuu),
-            genre = listOf( "Action Comey", "Horror", "Sci-fi", "Shounen"),
-            description = "",
+            genre = listOf( "Action","Comedy", "Horror", "Sci-fi", "Shounen"),
+            description = R.string.ha_kaijuu_description,
             like = false,
             rating = 8.0f
         ),
@@ -72,7 +72,7 @@ object ComicSeeder {
             title = "Yuru Camp",
             image = getBitmap(context, R.drawable.yuru_camp),
             genre = listOf("Adventure", "Comedy", "Seinen", "Slice of Life"),
-            description = "",
+            description = R.string.yuru_camp_description,
             like = false,
             rating = 8.4f
         ),
@@ -80,7 +80,7 @@ object ComicSeeder {
             title = "Tokyo Ghoul",
             image = getBitmap(context, R.drawable.tokyo_ghoul),
             genre = listOf("Action", "Horror", "Mature", "Psychological", "Seinen", "Supernatural", "Tragedy"),
-            description = "",
+            description = R.string.tokyo_ghoul_description,
             like = false,
             rating = 8.4f
         ),
@@ -88,7 +88,7 @@ object ComicSeeder {
             title = "Akame ga KILL!",
             image = getBitmap(context, R.drawable.akame_ga_kill),
             genre = listOf("Action", "Drama", "Fantasy", "Romance", "Shounen", "Supernatural", "Tragedi"),
-            description = "",
+            description = R.string.akame_ga_kill_description,
             like = false,
             rating = 9.51f
         ),
@@ -96,7 +96,7 @@ object ComicSeeder {
             title = "Kubo-san wa Boku wo Yurusanai",
             image = getBitmap(context, R.drawable.kubo_san),
             genre = listOf("Comedy", "Romance", "School Life", "Seinen"),
-            description = "",
+            description = R.string.kubo_san_description,
             like = false,
             rating = 7.9f
         )
