@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.LayoutManager
-import com.example.aplikasi_sederhana.R
 import com.example.aplikasi_sederhana.adapter.ComicAdapter
 import com.example.aplikasi_sederhana.databinding.FragmentHomeBinding
 import com.example.aplikasi_sederhana.sedeer.ComicSeeder

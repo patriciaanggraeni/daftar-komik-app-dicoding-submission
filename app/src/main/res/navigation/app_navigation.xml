@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_homeFragment_to_aboutFragment"
             app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_likedFragment"
+            app:destination="@id/likedFragment" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
@@ -37,5 +40,17 @@
         <action
             android:id="@+id/action_aboutFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/likedFragment"
+        android:name="com.example.aplikasi_sederhana.fragments.LikedFragment"
+        android:label="Liked Comic"
+        tools:layout="@layout/fragment_liked" >
+        <action
+            android:id="@+id/action_likedFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="currentLikedComic"
+            app:argType="com.example.aplikasi_sederhana.models.Comic" />
     </fragment>
 </navigation>

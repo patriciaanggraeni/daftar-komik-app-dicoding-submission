@@ -1,5 +1,7 @@
 package com.example.aplikasi_sederhana.adapter
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageButton

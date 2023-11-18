@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liked_comic_card"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_270sdp"
+    android:padding="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+    android:background="@drawable/custom_liked_card">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/liked_comic_image"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_180sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/chainsaw_man"
+            android:scaleType="fitXY"
+            android:foreground="@drawable/custom_cover_image"/>
+
+        <TextView
+            android:id="@+id/liked_comic_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyFontStyleBold"
+            android:text="Chainsaw Man"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/blackv2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/liked_comic_image"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:id="@+id/comic_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/liked_comic_title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="2dp"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/rating"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:src="@drawable/rating" />
+
+            <TextView
+                android:id="@+id/rating_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.8"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackv2"
+                android:textAlignment="center"
+                style="@style/MyFontStyleRegular"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/liked_comic_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icn_liked"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
