@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 data class Comic(
     val image: Bitmap,
     val title: String,
-    val genre: String,
+    val genre: List<String>,
     val rating: Float,
     var like: Boolean = false,
     val description: String

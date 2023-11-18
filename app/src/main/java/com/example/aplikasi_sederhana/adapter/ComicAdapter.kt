@@ -23,7 +23,7 @@ class ComicAdapter: RecyclerView.Adapter<ComicAdapter.ViewHolder>() {
 
     override fun onBindViewHolder(holder: ComicAdapter.ViewHolder, position: Int) {
         val comic = comics[position]
-        holder.bind(comic)
+        holder.bind(comic, comic.genre)
 
         holder.comicCardView.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToDetailFragment(comic)
@@ -47,12 +47,13 @@ class ComicAdapter: RecyclerView.Adapter<ComicAdapter.ViewHolder>() {
         val comicCardView: ConstraintLayout = binding.comicCardview
         val btnLikeComic: ImageButton = binding.like
 
-        fun bind(comic: Comic) {
+        fun bind(comic: Comic, comicGenre: List<String>) {
+            val listGenre = comicGenre.joinToString(", ")
             binding.apply {
                 image.load(comic.image)
                 title.text = comic.title
-                genre.text = comic.genre
                 rating.text = comic.rating.toString()
+                genre.text = listGenre
             }
         }
     }

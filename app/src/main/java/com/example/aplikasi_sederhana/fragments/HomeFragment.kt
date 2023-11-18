@@ -16,7 +16,6 @@ import com.example.aplikasi_sederhana.sedeer.ComicSeeder
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
-
     private lateinit var comicAdapter: ComicAdapter
     private lateinit var recyclerView: RecyclerView
 

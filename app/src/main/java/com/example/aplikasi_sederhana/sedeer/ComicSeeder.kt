@@ -19,7 +19,11 @@ object ComicSeeder {
         Comic(
             title = "Chainsaw Man",
             image = getBitmap(context, R.drawable.chainsaw_man),
-            genre = "Action, Comedy, Horror, Mature, Mistery, Psychological, Shounen, Supernatunal, Tragedy",
+            genre = listOf(
+                "Action", "Comedy", "Horror",
+                "Mature", "Mistery", "Psychological",
+                "Shounen", "Supernatunal", "Tragedy"
+            ),
             description = "",
             like = false,
             rating = 8.5f
@@ -27,7 +31,7 @@ object ComicSeeder {
         Comic(
             title = "Solo Leveling",
             image = getBitmap(context, R.drawable.solo_leveling),
-            genre = "Action, Adventure, Fantasy, Shounen",
+            genre = listOf("Action", "Adventure", "Fantasy", "Shounen"),
             description = "",
             like = false,
             rating = 8.8f
@@ -35,7 +39,7 @@ object ComicSeeder {
         Comic(
             title = "Shingeki No Kyoujin",
             image = getBitmap(context, R.drawable.shingeki_no_kyoujin),
-            genre = "Action, Drama, Fantasy, Horror, Mature, Shounen, Supernatural, Tragedy",
+            genre = listOf("Action", "Drama", "Fantasy", "Horror", "Mature", "Shounen", "Supernatural", "Tragedy"),
             description = "",
             like = false,
             rating = 8.6f
@@ -43,7 +47,7 @@ object ComicSeeder {
         Comic(
             title = "The Beginning After the End",
             image = getBitmap(context, R.drawable.the_beginning_after_the_end),
-            genre = "Action, Adventure, Fantasy, Isekai, School Life, Shounen, Tragedy",
+            genre = listOf("Action", "Adventure", "Fantasy", "Isekai", "School Life", "Shounen", "Tragedy"),
             description = "",
             like = false,
             rating = 7.7f
@@ -51,7 +55,7 @@ object ComicSeeder {
         Comic(
             title = "Sakamoto Days",
             image = getBitmap(context, R.drawable.sakamoto_days),
-            genre = "Action, Comedy, Shounen, Supernatural",
+            genre = listOf("Action", "Comedy", "Shounen", "Supernatural"),
             description = "",
             like = false,
             rating = 7.6f
@@ -59,7 +63,7 @@ object ComicSeeder {
         Comic(
             title = "8Kaijuu",
             image = getBitmap(context, R.drawable.ha_kaijuu),
-            genre = "Action Comey, Horror, Sci-fi, Shounen",
+            genre = listOf( "Action Comey", "Horror", "Sci-fi", "Shounen"),
             description = "",
             like = false,
             rating = 8.0f
@@ -67,7 +71,7 @@ object ComicSeeder {
         Comic(
             title = "Yuru Camp",
             image = getBitmap(context, R.drawable.yuru_camp),
-            genre = "Adventure, Comedy, Seinen, Slice of Life",
+            genre = listOf("Adventure", "Comedy", "Seinen", "Slice of Life"),
             description = "",
             like = false,
             rating = 8.4f
@@ -75,7 +79,7 @@ object ComicSeeder {
         Comic(
             title = "Tokyo Ghoul",
             image = getBitmap(context, R.drawable.tokyo_ghoul),
-            genre = "Action, Horror, Mature, Psychological, Seinen, Supernatural, Tragedy",
+            genre = listOf("Action", "Horror", "Mature", "Psychological", "Seinen", "Supernatural", "Tragedy"),
             description = "",
             like = false,
             rating = 8.4f
@@ -83,7 +87,7 @@ object ComicSeeder {
         Comic(
             title = "Akame ga KILL!",
             image = getBitmap(context, R.drawable.akame_ga_kill),
-            genre = "Action, Drama, Fantasy, Romance, Shounen, Supernatural, Tragedi",
+            genre = listOf("Action", "Drama", "Fantasy", "Romance", "Shounen", "Supernatural", "Tragedi"),
             description = "",
             like = false,
             rating = 9.51f
@@ -91,7 +95,7 @@ object ComicSeeder {
         Comic(
             title = "Kubo-san wa Boku wo Yurusanai",
             image = getBitmap(context, R.drawable.kubo_san),
-            genre = "Comedy, Romance, School Life, Seinen",
+            genre = listOf("Comedy", "Romance", "School Life", "Seinen"),
             description = "",
             like = false,
             rating = 7.9f
